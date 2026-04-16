@@ -28,7 +28,7 @@ def home():
     return {"message": "AutoSec AI Running 🚀"}
 
 
-# 🔥 Middleware: Logging + Detection + Storage
+#Middleware: Logging + Detection + Storage
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
     start_time = time.time()
